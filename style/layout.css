@@ -1,0 +1,265 @@
+/* Global layouting */
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 3.125rem;
+    margin-top: 3.125rem;
+}
+
+
+/* Header Logo */
+.logo {
+    height: 5.625rem;
+    width: 5.625rem;
+    bottom: 4.375rem;
+    right: 1.25rem;
+    display: flex;
+    position: absolute;
+    left: 10em;
+    top: 4.5em;
+}
+
+
+/* Nav menu */
+nav {
+    display: flex;
+    height: 4.375rem;
+    justify-content: center;
+}
+
+
+/* 'Welcome' Text */
+.Bienvenue {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+
+/* Menu Buttons */
+.menu-button {
+    display: flex;
+}
+
+/* Picture of me */
+.me {
+    display: flex;
+    justify-content: flex-end;
+    height: 600px;
+    width: 300px;
+    margin: 100px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.35);
+    margin-top: 120px;
+}
+
+
+/* Biopgraphy */
+#biography {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7.188rem;
+}
+
+
+/* Container */
+#container {
+    display: flex;
+    justify-content: center;
+    background-color: #11414F;
+    color: #ffffff;
+    padding: 1.875rem;
+    margin: 6.25rem;
+    height: 6.25rem;
+    width: 62.5rem;
+    text-align: center;
+    font-size: 3.125rem;
+    box-shadow: 0  1.25rem  1.25rem rgba(0, 0, 0, 0.35);
+    border-radius: 1.25rem;
+    line-height: 0.313rem;
+}
+
+
+/* Applications */
+.logos img {
+    display: flex;
+    width: 11.875rem;
+    height: 11.875rem;
+    flex-wrap: wrap;
+    transition: transform 0.5s ease;
+}
+
+.logos figure img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logos:hover img {
+    transform: scale(1.2);
+}
+
+
+
+
+
+/* PROJECT 1 */
+.project-1 {
+    display: flex;
+    justify-content: center;
+    height: 31.25rem;
+    flex-wrap: wrap;
+}
+
+.project-1 img {
+    display: flex;
+    height: 31.25rem;
+}
+
+/* PROJECT 2 */
+.project-2 {
+    display: flex;
+    margin-top: 9.375rem;
+    height: 37.5rem;
+    margin-left: 6.25rem;
+}
+
+.project-2 img {
+    margin-top: 6.25rem;
+    height: 21.875rem;
+    margin-left: 1.875rem;
+}
+
+
+/* PROJECT 3 */
+.project-3 {
+    display: flex;
+    margin-top:70px;
+    height: 43.75rem;
+}
+
+.project-3 img {
+    margin-top: 6.25rem;
+    height: 21.875rem;
+    margin-left: 3.125rem;
+}
+
+
+
+/* Contact */
+.contact-title {
+    margin-top: 150px;
+    display: flex;
+    margin-left: 10.625rem;
+    color: #050951;
+    font-size: 3rem;
+}
+
+#contact-text {
+    display: flex;
+    justify-content: space-around;
+    font-style: normal;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.telephone {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 360px;
+}
+
+.num {
+    display: flex;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    width: 110px;
+    margin-top: 5px;
+    margin-left: 525px;
+
+}
+
+.gmail {
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+/* Caroussel */
+.argentique-box{
+    margin-top: 200px;
+}
+.text-caroussel {
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    margin: 5px;
+}
+
+.carousel {
+    margin-left : 405px;
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.left-btn {
+    left: 10px;
+}
+
+.right-btn {
+    right: 10px;
+}
