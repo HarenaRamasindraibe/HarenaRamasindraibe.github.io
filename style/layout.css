@@ -34,7 +34,7 @@ nav {
     display: flex;
     justify-content: center;
     font-size: 1.4rem;
-     color: #ffffff;
+    color: #ffffff;
 }
 
 
@@ -60,7 +60,7 @@ nav {
     font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: space-around;
-    margin-top: 10rem;
+    margin-top: 30rem;
 }
 
 
