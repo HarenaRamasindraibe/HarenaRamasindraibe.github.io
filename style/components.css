@@ -135,12 +135,11 @@ header {
 
 /* PROJECT 1 */
 .project-text-1 {
-    margin-top: 20px;
-    padding: 18px;
+    padding: 20px;
     font-size: large;
     color: #ffffff;
     font-weight: 500;
-    height: 1000px;
+    height: 600px;
     width: 37.5rem;
     background-color: #40B0A4;
     font-family: 'Poppins', sans-serif;
@@ -150,13 +149,12 @@ header {
 
 /* PROJECT 2 */
 .project-text-2 {
-    margin-top:100px;
     margin-left: 1.25rem;
     padding: 30px;
     font-size: large;
     color: #ffffff;
     font-weight: 500;
-    height: 550px;
+    height: 700px;
     width: 22.5rem;
     background-color: #40B0A4;
     font-family: 'Poppins', sans-serif;
