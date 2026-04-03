@@ -180,7 +180,7 @@ header {
 
 /* Contact */
 .contact-container {
-    height: 31.25rem;
+    height: 35.25rem;
     width: 62.5rem;
     padding: 1.25rem;
     background-color: #8FC3BD;
@@ -188,6 +188,10 @@ header {
     border-radius: 20px;
     margin-left: 8.75rem;
     margin-bottom: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 
