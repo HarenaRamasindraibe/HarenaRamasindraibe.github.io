@@ -139,13 +139,33 @@ header {
     font-size: large;
     color: #ffffff;
     font-weight: 500;
-    height: 600px;
+    height: 540px;
     width: 37.5rem;
     background-color: #40B0A4;
     font-family: 'Poppins', sans-serif;
     border-radius: 20px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
+
+.skills-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.skills-box p {
+    margin: 0;
+}
+
+.skills-box img {
+    margin-top: 2px;
+    align-self: start;
+}
+
+
+
+
 
 /* PROJECT 2 */
 .project-text-2 {
@@ -154,7 +174,7 @@ header {
     font-size: large;
     color: #ffffff;
     font-weight: 500;
-    height: 700px;
+    height: 630px;
     width: 22.5rem;
     background-color: #40B0A4;
     font-family: 'Poppins', sans-serif;
