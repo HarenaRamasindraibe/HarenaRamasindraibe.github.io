@@ -244,6 +244,14 @@ header {
 }
 
 
+/* PROJECT 4 */
+.posters { 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 250px;
+}
+
 /* Footer */
 footer {
     background-color: #003E61;
