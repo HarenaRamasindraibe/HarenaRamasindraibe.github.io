@@ -72,7 +72,7 @@ nav {
     width: 62.5rem;
     text-align: center;
     font-size: 3.125rem;
-    box-shadow: 0  1.25rem  1.25rem rgba(0, 0, 0, 0.35);
+    box-shadow: 0 1.25rem 1.25rem rgba(0, 0, 0, 0.35);
     border-radius: 1.25rem;
     line-height: 0.313rem;
 }
@@ -131,7 +131,7 @@ nav {
 /* PROJECT 3 */
 .project-3 {
     display: flex;
-    margin-top:70px;
+    margin-top: 70px;
     height: 43.75rem;
 }
 
@@ -160,17 +160,14 @@ nav {
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
     font-weight: bold;
-    text-align: center;
-    margin-top: 40px;
+    margin-left: 10px;
 }
 
 .telephone {
     display: flex;
-    justify-content: center;
     height: 120px;
     width: 120px;
     margin-top: 10px;
-    margin-left: 360px;
 }
 
 .num {
@@ -183,12 +180,9 @@ nav {
 
 .mail {
     display: flex;
-    justify-content: center;
     height: 110px;
     width: 110px;
     margin-top: 5px;
-    margin-left: 525px;
-
 }
 
 .gmail {
@@ -200,14 +194,24 @@ nav {
 }
 
 
+.linkedin {
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
 
 
 
 
 /* Caroussel */
-.argentique-box{
+.argentique-box {
     margin-top: 200px;
 }
+
 .text-caroussel {
     display: flex;
     justify-content: center;
@@ -216,7 +220,7 @@ nav {
 }
 
 .carousel {
-    margin-left : 405px;
+    margin-left: 405px;
     position: relative;
     width: 80%;
     max-width: 600px;
