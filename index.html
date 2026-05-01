@@ -13,44 +13,35 @@
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/brittany-signature" rel="stylesheet">
-    <script src="script.js"> </script>
+    <script src="./scripts/script.js"></script>
     <title>Portfolio de Harena Ramasindraibe</title>
     <link rel="stylesheet" href="./style/components.css">
-    <link rel="stylesheet" href="./style/layout.css">
     <link rel="icon" href="media/images/logo_harena.png">
 </head>
 
 <body>
-    <nav>
-        <div class="logo">
-            <img src="media/images/logo_harena.png" alt="Logo">
-        </div>
-
-        <div class="menu-button" style="display: flex; margin-left:95px;">
-            <div class="button"> Qui suis-je ?</div>
-            <div class="button"> Mes projets </div>
-            <div class="button"> Contact </div>
-        </div>
-
-        <!-- Responsive-->
-        <div class="burger-menu">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-
-    </nav>
-
     <header>
+        <nav>
+            <div class="logo">
+                <img src="media/images/logo_harena.png" alt="Logo">
+            </div>
 
-        <div class="harena-signature">
-            <h1> Harena Ramasindraibe </h1>
+            <div class="menu-button">
+                <div class="button">Qui suis-je ?</div>
+                <div class="button">Mes projets</div>
+                <div class="button">Contact</div>
+            </div>
+        </nav>
+
+        <div class="header-container">
+            <div class="harena-signature">
+                <h1>Harena Ramasindraibe </h1>
+            </div>
+
+            <div class="Bienvenue">
+                <h1>Bienvenue sur mon Portfolio !</h1>
+            </div>
         </div>
-
-        <div class="Bienvenue">
-            <h1> Bienvenue sur mon Portfolio !</h1>
-        </div>
-
     </header>
 
 
@@ -58,17 +49,14 @@
         <section>
             <article>
                 <div id="biography" class="biography-container">
-
                     <div class="me">
                         <img src="media/images/PP_Harena_Linkedin_Détouré.png" alt="moi">
                     </div>
 
                     <div class="text">
-
                         <div id="title">
-                            <h1 id="titre4"> </h1>
+                            <h1 id="aboutMe-title"></h1>
                         </div>
-
 
                         <p> Hey ! Moi, c’est Harena, j’ai 20 ans et je suis étudiante en 3ème année de BUT MMI (Métiers
                             du multimédia et de l’Internet) à Lannion axée sur la création de contenu (audiovisuel,
@@ -93,41 +81,39 @@
                 </div>
             </article>
 
-            <article class="competences-box">
-                <div id="container" style="display: flex; margin-left:130px;">
-                    <h1 id="titre"></h1>
+            <article class="article-box">
+                <div id="container" class="mb-100">
+                    <h1 id="skills-title"></h1>
                 </div>
 
-                <div class="competences" style="display: flex; margin-left: 62px;">
+                <div class="competences">
                     <div class="item">
                         <img src="media/images/camera.png" alt="camera">
                         <div class="texte-competences">
-                            <p> Photographie/vidéo et montage</p>
+                            <p>Photographie/vidéo et montage</p>
                         </div>
                     </div>
                     <div class="item">
                         <img src="media/images/communication.png" alt="communication">
                         <div class="texte-competences">
-                            <p> Communication et marketing digital </p>
+                            <p>Communication et marketing digital </p>
                         </div>
                     </div>
                     <div class="item">
                         <img src="media/images/ordi.png" alt="ordinateur">
                         <div class="texte-competences">
-                            <p> Intégration web et design graphique</p>
+                            <p>Intégration web et design graphique</p>
                         </div>
                     </div>
-
                 </div>
             </article>
 
-            <article>
-                <div id="container" style="display: flex; margin-left:130px;">
-                    <h1 id="titre2"></h1>
+            <article class="article-box">
+                <div id="container" class="mb-100">
+                    <h1 id="tools-title"></h1>
                 </div>
 
-
-                <div class="applications" style="display: flex; margin-left: 28px;">
+                <div class="applications">
                     <div class="logos">
                         <figure>
                             <a href="https://www.adobe.com/fr/products/premiere/campaign/pricing.html?gclid=CjwKCAiA2pyuBhBKEiwApLaIO_flI1BrTXp5T5-cb5nf0sO-Wo6sEd7QuYfIgs9ngo-znOgQB_QAoxoCpPsQAvD_BwE&mv=search&mv=search&mv2=paidsearch&sdid=G4FRYP7G&ef_id=CjwKCAiA2pyuBhBKEiwApLaIO_flI1BrTXp5T5-cb5nf0sO-Wo6sEd7QuYfIgs9ngo-znOgQB_QAoxoCpPsQAvD_BwE:G:s&s_kwcid=AL!3085!3!600117278398!e!!g!!adobe%20premiere%20pro!1435912734!56537474099&gad_source=1"
@@ -201,104 +187,90 @@
 
             </article>
 
-            <article>
-                <div id="container" style="display: flex; margin-left:130px;">
-                    <h1 id="titre3"></h1>
+            <article class="article-box article-projects-container">
+                <div id="container">
+                    <h1 id="project-title"></h1>
                 </div>
 
+                <div class="project-container">
+                    <div class="project">
+                        <figure class="project-photo">
+                            <img src="media/images/cdc_zaza.png" alt="project-1" class="illustration-project-img1">
+                        </figure>
 
-                <div class="project-1">
+                        <div class="project-text">
+                            <h2> Refonte de la stratégie de communication et de marketing
+                                d'une photographe professionnelle : Isabelle Beauvais</h2>
+                            <p class="p-italic"> Octobre 2024 - Début avril 2025 </p>
+                            <p> Le but étant d'améliorer la visibilité et la notoriété de notre cliente sur les
+                                différents
+                                canaux de communication
+                                ainsi que dans la région bretonne. </p>
+                            <p> Nous lui avons confié notre expertise MMI, en lui proposant tout un ensemble de contenus
+                                (logo, charte graphique et guide pour réseaux sociaux),
+                                un dossier rassemblant les études de marché ainsi que les recommandations marketing que
+                                nous
+                                lui suggérons et enfin une vidéo promotionnelle de celle-ci. </p>
 
-                    <figure class="project-photo">
-                        <img src="media/images/cdc_zaza.png" alt="project-1">
-                        <!-- <img src="media/images/planche_logo_zaza.png" alt="project-1"> -->
-                    </figure>
-
-
-
-                    <div class="project-text-1">
-
-                        <h2 style="color: rgb(1, 50, 60)"> Refonte de la stratégie de communication et de marketing
-                            d'une photographe professionnelle : Isabelle Beauvais</h2>
-
-                        <p style="font-style: italic;color: rgb(81, 99, 106)"> Octobre 2024 - Début avril 2025 </p>
-                        <p> Le but étant d'améliorer la visibilité et la notoriété de notre cliente sur les différents
-                            canaux de communication
-                            ainsi que dans la région bretonne. </p>
-                        <p> Nous lui avons confié notre expertise MMI, en lui proposant tout un ensemble de contenus
-                            (logo, charte graphique et guide pour réseaux sociaux),
-                            un dossier rassemblant les études de marché ainsi que les recommandations marketing que nous
-                            lui suggérons et enfin une vidéo promotionnelle de celle-ci. </p>
-
-                        <div class="skills-box">
-                            <img src="media/images/Design_sans_titre__8_-removebg-preview.png" style="height:25px">
-                            <p>Travail d’équipe, refonte d’identité visuelle,
-                                création de contenu, communication et marketing digital</p>
+                            <div class="skills-box">
+                                <img src="media/images/Design_sans_titre__8_-removebg-preview.png" class="img-check">
+                                <p>Travail d'équipe, refonte d’identité visuelle,
+                                    création de contenu, communication et marketing digital</p>
+                            </div>
                         </div>
                     </div>
 
+                    <div class="video">
+                        <video controls autoplay loop muted>
+                            <source src="media/video/video_zaza_crop.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
 
+                <div class="project-container">
+                    <div class="project">
+                        <div class="project-text">
+                            <h2> Gestion de la conception et de la communication
+                                d'un produit </h2>
+                            <p class="p-italic"> Fin mars 2024 - Fin mai 2024 </p>
+                            <p> Mise sur le marché et promotion d'un mixeur haut de gamme. </p>
+                            <p> En équipe, nous avons été amené lors d'un Serious Game à assurer la vente, le budget et
+                                la
+                                rentabilité du produit. Par la suite,
+                                nous avons rédigé sa campagne de communication en proposant différents supports visuels
+                                :
+                                site web, posts sur les réseaux sociaux, magazine, émissions télé
+                                et radio ainsi qu'une publicité d'une durée de 30s dont j'ai été la <b>cadreuse</b>.
+                            </p>
 
-                <div class="video" style="display: flex; justify-content: center; height: 800px; margin-top:230px;">
-                    <video controls autoplay loop muted>
-                        <source src="media/video/video_zaza_crop.mp4" type="video/mp4"
-                            style="height: 20px; width: 20px;">
-                    </video>
-                </div>
+                            <div class="skills-box2">
+                                <img src="media/images/Design_sans_titre__8_-removebg-preview.png" class="img-check">
+                                <p>Travail d’équipe, gestion et communication
+                                    commerciale, stratégie de marque </p>
+                            </div>
 
-
-                <div class="project-2">
-
-                    <div class="project-text-2">
-
-                        <h2 style="color: rgb(1, 50, 60)"> Gestion de la conception et de la communication
-                            d'un produit </h2>
-                        <p style="font-style: italic;color: rgb(81, 99, 106)"> Fin mars 2024 - Fin mai 2024 </p>
-                        <p> Mise sur le marché et promotion d'un mixeur haut de gamme. </p>
-                        <p> En équipe, nous avons été amené lors d'un Serious Game à assurer la vente, le budget et la
-                            rentabilité du produit. Par la suite,
-                            nous avons rédigé sa campagne de communication en proposant différents supports visuels :
-                            site web, posts sur les réseaux sociaux, magazine, émissions télé
-                            et radio ainsi qu'une publicité d'une durée de 30s dont j'ai été la <b>cadreuse</b>. </p>
-
-                        <div class="skills-box2">
-                            <img src="media/images/Design_sans_titre__8_-removebg-preview.png"
-                                style="height:25px; margin:0">
-                            <p>Travail d’équipe, gestion et communication
-                                commerciale, stratégie de marque </p>
                         </div>
 
+                        <figure class="project-photo-2">
+                            <img src="media/images/pub.png" alt="project-2" class="illustration-project-img2">
+                        </figure>
                     </div>
 
-
-                    <figure class="project-photo-2">
-                        <img src="media/images/pub.png" alt="project-2" style="margin-top: 210px;">
-                    </figure>
-
-
-
+                    <div class="video">
+                        <video controls autoplay loop muted>
+                            <source src="media/video/1B2-SAE202-Harena-Ramasindraibe-v2.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
 
-                <div class="video" style="display: flex; justify-content: center; height: 800px; margin-top:230px;">
-                    <video controls autoplay loop muted>
-                        <source src="media/video/1B2-SAE202-Harena-Ramasindraibe-v2.mp4" type="video/mp4"
-                            style="height: 20px; width: 20px;">
-                    </video>
-                </div>
-
-
-                <div class="project-3">
-
+                <div class="project">
                     <figure class="project-photo">
-                        <img src="media/images/shoot_audrey.jpg" alt="project-3" style="height: 600px;">
+                        <img src="media/images/shoot_audrey.jpg" alt="project-3" class="illustration-project-img3">
                     </figure>
 
-
-                    <div class="project-text-3">
-
-                        <h2 style="color: rgb(1, 50, 60)"> Interview documentaire </h2>
-                        <p style="font-style: italic;color: rgb(81, 99, 106)"> Mi septembre 2024 - Mi décembre 2024 </p>
+                    <div class="project-text">
+                        <h2> Interview documentaire </h2>
+                        <p class="p-italic"> Mi septembre 2024 - Mi décembre 2024 </p>
                         <p> Interview de 3 animatrices de l'agence de voyages Nouvel Horizon.
                         </p>
                         <p> En tant que <b>cadreuse </b>, j'ai produit avec mon équipe une interview de 3 à 5 min en
@@ -310,61 +282,47 @@
                         </p>
 
                         <div class="skills-box3">
-                            <img src="media/images/Design_sans_titre__8_-removebg-preview.png"
-                                style="height:25px; margin:0">
+                            <img src="media/images/Design_sans_titre__8_-removebg-preview.png" class="img-check">
                             <p>Travail d’équipe, production audiovisuelle, storytelling</p>
                         </div>
-
-
                     </div>
-
                 </div>
-
 
                 <div class="project-4">
-
-                    
-                    <div class="posters">
-                            <img src="media/images/stussy_poster_V0.png" alt="project-4"
-                                style="height: 500px; margin:20px; ">
-                            <img src="media/images/Poster_The_Weeknd_rapide.png" alt="project-4"
-                                style="height: 500px; margin:20px; ">
-                            <img src="media/images/SURPISE.png" alt="project-4"
-                                style="height: 500px; margin:20px; ">
+                    <div id="container">
+                        <h1 id="posters-title"></h1>
                     </div>
 
-
+                    <div class="posters-container">
+                        <img src="media/images/stussy_poster_V0.png" alt="project-4">
+                        <img src="media/images/Poster_The_Weeknd_rapide.png" alt="project-4">
+                        <img src="media/images/SURPISE.png" alt="project-4">
+                    </div>
                 </div>
-
 
                 <!-- LOGOOOOOOOOO (lyon, zaza, loris) et projet marriages dada
                 <div class="project-4">
-
                     <figure class="project-photo">
                         <img src="media/images/shoot_audrey.jpg" alt="project-3" style="height: 600px;">
                     </figure>
 
-
                     <div class="project-text-3">
-
-                        <h1 style="color: rgb(1, 50, 60)">  Interview documentaire </h1>
+                        <h1>Interview documentaire </h1>
                         <p style="font-style: italic;color: rgb(81, 99, 106)"> Mi septembre 2024 - Mi décembre 2024 </p>
                         <p> Dans le cadre du projet SAÉ 1.04, j’ai réalisé un court métrage de 2 min en équipe en
                             imaginant et construisant la suite de la phrase suivante : “Une personne entre dans un bâtiment puis passe
                             la porte d’une pièce et s’assoie devant un bureau vide en face de...”. </p>
                     </div>
-
                 </div> -->
-
             </article>
 
 
             <div class="argentique-box">
                 <div class="text-caroussel">
-                    <h1 id="titre5"></h1>
+                    <h1 id="photosIMade-title"></h1>
                 </div>
 
-                <div class="carousel" style="height: 600px; width: 490px;">
+                <div class="carousel">
                     <div class="carousel-track">
                         <img src="media/argentique/IMG_7659.jpeg" alt="Photo 1">
                         <img src="media/argentique/IMG_7658.jpeg" alt="Photo 2">
@@ -374,59 +332,55 @@
                         <img src="media/argentique/IMG_7666.jpeg" alt="Photo 6">
                         <img src="media/argentique/IMG_7661.jpeg" alt="Photo 7">
                         <img src="media/argentique/IMG_7652.jpeg" alt="Photo 8">
-                        <img src="media/argentique/IMG_7667.jpeg" alt="Photo 9" style="height: 800px; width: 800px;">
+                        <img src="media/argentique/IMG_7667.jpeg" alt="Photo 9">
                     </div>
-                    <button class="carousel-btn left-btn">&lt;</button>
-                    <button class="carousel-btn right-btn">&gt;</button>
+                    <button class="carousel-btn left-btn">&#8249;</button>
+                    <button class="carousel-btn right-btn">&#8250;</button>
                 </div>
+                <div class="carousel-dots"></div>
             </div>
             </div>
 
-
-
-            <article>
-
-
+            <article class="article-contact">
                 <div class="contact-title">
-                    <h1> Contact </h1>
+                    <h1>Contact</h1>
                 </div>
 
                 <div class="contact-container">
-
                     <div id="contact-text">
                         <p id="contact-text"> </p>
                     </div>
 
-                    <div class="telephone">
-                        <img src="media/images/telephone-removebg-preview.png" alt="phone-icon">
+                    <div class="link-container">
+                        <div class="link">
+                            <img class="contact-image" src="media/images/telephone-removebg-preview.png"
+                                alt="phone-icon">
 
-                        <div class="num">
-                            <p> 06.51.35.21.11 </p>
+                            <div class="num">
+                                <p> 06.51.35.21.11 </p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="mail">
-                        <img src="media/images/mail-removebg-preview.png" alt="mail-icon">
+                        <div class="link">
+                            <img class="contact-image" src="media/images/mail-removebg-preview.png" alt="mail-icon">
 
-                        <div class="gmail">
-                            <p> harena.ramasindraibe@gmail.com </p>
+                            <div class="gmail">
+                                <p> harena.ramasindraibe@gmail.com </p>
+                            </div>
                         </div>
-                    </div>
 
-
-                    <div class="linkedin">
-                        <img src="media/images/linkedin.png" alt="mail-icon">
-                        <a href="https://www.linkedin.com/in/harena-ramasindraibe-3059b433b" style="color:white">
-                            <p> Harena Ramasindraibe </p>
-                        </a>
-                        <div class="monlinkedin">
+                        <div class="link">
+                            <img class="contact-image" src="media/images/linkedin.png" alt="mail-icon">
+                            <a href="https://www.linkedin.com/in/harena-ramasindraibe-3059b433b" class="color-white">
+                                <p>Harena Ramasindraibe</p>
+                            </a>
                         </div>
                     </div>
                 </div>
             </article>
         </section>
     </main>
-
+    <script src="./scripts/carousel.js"></script>
 </body>
 
 <footer>
@@ -435,50 +389,5 @@
         <img src="media/images/logo_harena.png" alt="footer-logo">
     </div>
 </footer>
-
-<script>
-    const track = document.querySelector('.carousel-track');
-    const leftBtn = document.querySelector('.left-btn');
-    const rightBtn = document.querySelector('.right-btn');
-
-    let currentIndex = 0;
-    const totalImages = track.children.length;
-
-    // Fonction pour mettre à jour le décalage
-    function updateCarousel() {
-        const width = track.children[0].getBoundingClientRect().width;
-        track.style.transform = `translateX(-${currentIndex * width}px)`;
-    }
-
-    // Bouton gauche
-    leftBtn.addEventListener('click', () => {
-        currentIndex = (currentIndex - 1 + totalImages) % totalImages;
-        updateCarousel();
-    });
-
-    // Bouton droit
-    rightBtn.addEventListener('click', () => {
-        currentIndex = (currentIndex + 1) % totalImages;
-        updateCarousel();
-    });
-
-    // Assurez-vous que le carrousel fonctionne correctement lors du redimensionnement de la fenêtre
-    window.addEventListener('resize', updateCarousel);
-
-
-
-    // Menu burger responsive
-    document.addEventListener("DOMContentLoaded", function () {
-        const burgerMenu = document.querySelector('.burger-menu');
-        const menuButton = document.querySelector('.menu-button');
-
-        burgerMenu.addEventListener('click', () => {
-            menuButton.classList.toggle('active'); // Ajoute ou enlève la classe "active"
-        });
-    });
-
-</script>
-
-
 
 </html>
