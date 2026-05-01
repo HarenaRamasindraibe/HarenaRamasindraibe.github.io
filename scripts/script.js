@@ -40,7 +40,7 @@ createTypingEffect("Quelques projets", "h1#project-title");
 createTypingEffect("À propos de moi ;)", "h1#aboutMe-title");
 createTypingEffect("Mes créations", "h1#posters-title");
 createTypingEffect(
-  "Et voici quelques photos que j'ai réalisé à l'argentique...",
+  "Et voici quelques photos que j'ai capturé à l'argentique...",
   "h1#photosIMade-title",
 );
 createTypingEffect(
