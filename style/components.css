@@ -459,6 +459,13 @@ nav {
   border-radius: 8px;
 }
 
+.project-4 p {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  }
+  
 /* ========================
    CONTACT
 ======================== */
